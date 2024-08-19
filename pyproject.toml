@@ -1,0 +1,29 @@
+[project]
+name = "hai-dataeng-tech-task"
+requires-python = ">=3.8,<3.11"
+version = "0.0.1"
+
+dependencies = [
+    "pydicom~=2.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black~=22.6.0",
+    "ruff==0.0.252",
+    "pytest~=7.2",
+]
+
+[tool.setuptools.packages.find]
+include = ["rpdraft*"]
+
+[build-system]
+requires = ["setuptools>=65.3.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
