@@ -13,6 +13,16 @@ You're welcome to use a private repository, as long as it's visible to the follo
 * @suzy-hai
 * @daniellohrey-hai
 
+# Notes to Reviewers
+
+Please find my python file for task 1 in `tech_test.py`.
+There are no external dependencies, bar the provided `pydicom` module.
+
+The document for the second task is found in `system_design.md`.
+Please note, it references 2 images (found in `documentation_assets/` for handy diagrams), if moved around, please move these accordingly, lest the references break.
+
+
+
 ## Background: DICOM
 
 Digital Imaging and Communications in Medicine (DICOM) is a standard format for sharing medical image information.
@@ -88,7 +98,7 @@ Your script should be written in Python, and may use third-party dependencies if
 
 This is a system-design task, which will be explored together in more detail
 as part of the second interview. There's no one right answer here - we're mainly
-interested in seeing the way you think about the problem and the various 
+interested in seeing the way you think about the problem and the various
 challenges/tradeoffs that might be involved.
 
 ---
